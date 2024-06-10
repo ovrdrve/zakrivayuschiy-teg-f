@@ -17,7 +17,7 @@
 
   --content-size: clamp(375px, 50%, 700px);
 
-  --bg-image: repeating-linear-gradient(#ffffff 0 2px, transparent 2px 4px),
-    repeating-linear-gradient(90deg, #ffffff 0 2px, transparent 2px 4px),
-    repeating-linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+  --bg-image: repeating-linear-gradient(#d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(#e7e7e7 0.01%, #1a1a1a);
 }

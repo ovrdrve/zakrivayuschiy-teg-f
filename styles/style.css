@@ -31,7 +31,7 @@
 
 .content {
   margin: 0 auto;
-  inline-size: clamp(375px, 50%, 700px);
+  inline-size: var(--content-size);
 }
 
 .button {
@@ -175,16 +175,16 @@
   inline-size: 100%;
 }
 
-.card__image_filter_saturate {
-  filter: saturate(300%);
-}
-
 .card__image_filter_grayscale {
   filter: grayscale(75%);
 }
 
 .card__image_filter_hue-rotate-30deg {
   filter: hue-rotate(30deg);
+}
+
+.card__image_filter_saturate {
+  filter: saturate(300%);
 }
 
 .card__image_filter_invert {
@@ -199,8 +199,8 @@
   filter: brightness(30%);
 }
 
-.card__image_filter_hue-rotate-300deg {
-  filter: hue-rotate(300deg);
+.card__image_filter_mix {
+  filter: hue-rotate(75deg) blur(2px) contrast(70%);
 }
 
 .card__text-wrapper {
