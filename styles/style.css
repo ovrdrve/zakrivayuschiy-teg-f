@@ -331,8 +331,13 @@
   grid-template-rows: 63px 38px;
 }
 
-.dialog__button {
+.dialog__form {
+  display: flex;
   grid-column: 1/3;
+}
+
+.dialog__button {
+  flex-grow: 1;
   border: 2px solid currentColor;
   text-transform: uppercase;
 }
